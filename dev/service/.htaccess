@@ -1,0 +1,9 @@
+Header add Access-Control-Allow-Origin "*"
+Header add Access-Control-Allow-Headers "origin, x-requested-with, content-type"
+Header add Access-Control-Allow-Methods "PUT, GET, POST, DELETE, OPTIONS"
+
+Options +FollowSymlinks
+RewriteEngine On
+RewriteRule testmarchandCheckScanUserIfExistsV3.php$ testmarchandCheckScanUserIfExistsV2.php
+RewriteRule testmarchandGetAnswerV3.php$ testmarchandGetAnswerV2.php
+RewriteRule marchandCheckScanUser2.php$ marchandCheckScanUser.php

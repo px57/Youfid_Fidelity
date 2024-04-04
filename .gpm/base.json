@@ -1,0 +1,8 @@
+{
+    "base_path": "/var/projects/Youfid_Fidelity/.gpm/base.json",
+    "gpm_path": "/var/projects/Youfid_Fidelity/.gpm",
+    "name": "Youfid_Fidelity",
+    "project_type": "project",
+    "repository_url": "https://github.com/px57/Youfid_Fidelity.git",
+    "root_path": "/var/projects/Youfid_Fidelity"
+}

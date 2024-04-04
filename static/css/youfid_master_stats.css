@@ -1,0 +1,71 @@
+.stats_content_left
+{
+	width:  40%;
+	margin-left : 10%;
+	margin-top: 20px;
+	/*background-color: #8a2be2;*/
+}
+
+.stats_content_right
+{
+	width:  40%;
+	margin-left : 10%;
+	/*background-color: #2e8b57;*/
+}
+
+.pie_content_left
+{
+	width:  49%;
+	/*margin-left : 10%;*/
+	
+	/*background-color: #8a2be2;*/
+}
+
+.pie_content_right
+{
+	width:  49%;
+	/*margin-left : 10%;*/
+	/*background-color: #2e8b57;*/
+}
+
+#stats_content, hr
+{
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+#stats_detail
+{
+	/*margin-top: 3%;*/
+}
+
+#stats_content
+{
+	width: auto;
+}
+
+/********* DIV BUTTON *********/
+#button_holder
+{
+	margin-top: 15%;
+}
+
+#button_holder button
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100px;
+	height: 30px;
+}
+
+/********* DIV CHECKBOX *********/
+#checkbox_holder
+{
+	margin-top: 10%;
+}
+
+#checkbox_holder input
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

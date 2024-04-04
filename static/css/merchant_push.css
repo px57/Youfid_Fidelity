@@ -1,0 +1,45 @@
+#merchant_content select
+{
+	width:70px;
+}
+
+#merchant_content .day_label
+{
+	float:left;
+	text-align:left;
+	/*background-color: #2e8b57;*/
+	width: 40%;
+}
+
+#merchant_content .day_elem
+{
+	margin-bottom: 10px;
+}
+
+#merchant_content textarea
+{
+   resize: none;
+}
+
+#merchant_content .text_region
+{
+   margin-top: 20%;
+}
+
+#merchant_content hr
+{
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+
+#merchant_content .msg_region
+{
+   text-align: justify;
+   font-size: small;
+}
+
+#form_result
+{
+	margin-top: 5%;
+	font-size: medium;
+}

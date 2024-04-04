@@ -1,0 +1,59 @@
+#content
+{
+   width:600px; 
+   margin-top:20px; 
+   padding-bottom:25px; 
+   padding-top:5px;
+}
+ 
+#left
+{
+   width:370px; 
+   height:500px; 
+   float:left;
+   padding: 20px;
+   font-size: 14px;
+   
+   
+}
+
+.time {
+	max-width: 100px;
+	
+}
+
+.inputpromo {
+	max-width: 100px;
+}
+
+#right
+{
+   width:370px; 
+   height:500px; 
+   float:right;
+   padding: 20px;
+	font-size: 14px;
+}
+
+.promotext
+{
+	width: 220px;
+}
+
+.clear {
+	clear:both;
+}
+
+textarea {
+  resize: none;
+}
+
+.mailtext {
+	width:90%;
+	min-width: 600px;
+}
+
+.inlineform {
+	display: inline;
+	margin:0;
+}

@@ -1,0 +1,5 @@
+AuthName "Admin youfid access"
+AuthType Basic
+AuthUserFile "/var/www/youfid/evols/.htpasswd"
+AuthGroupFile "/var/www/youfid/evols/.htpasswd"
+Require valid-user

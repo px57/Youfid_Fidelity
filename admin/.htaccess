@@ -1,0 +1,5 @@
+AuthName "Admin youfid access"
+AuthType Basic
+AuthUserFile "/apps/apache/backoffice-youfid/admin/.htpasswd"
+AuthGroupFile "/apps/apache/backoffice-youfid/admin/.htpasswd"
+Require valid-user

@@ -1,0 +1,48 @@
+.clientmarchandswitch {
+    position: relative; width: 131px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.clientmarchandswitch-checkbox {
+    display: none;
+}
+.clientmarchandswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.clientmarchandswitch-inner {
+    width: 200%; margin-left: -100%;
+    -moz-transition: margin 0.3s ease-in 0s; -webkit-transition: margin 0.3s ease-in 0s;
+    -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
+}
+.clientmarchandswitch-inner:before, .clientmarchandswitch-inner:after {
+    float: left; width: 50%; height: 22px; padding: 0; line-height: 22px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+.clientmarchandswitch-inner:before {
+    content: "Marchand";
+    padding-left: 10px;
+    background-color: #2FCCFF; color: #FFFFFF;
+	/*background-color: #EEEEEE; color: #999999;*/
+}
+.clientmarchandswitch-inner:after {
+    content: "Client";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+	/*background-color: #2FCCFF; color: #FFFFFF;*/
+    text-align: right;
+}
+.clientmarchandswitch-switch {
+    width: 18px; margin: 2px;
+    background: #FFFFFF;
+    border: 2px solid #999999; border-radius: 20px;
+    position: absolute; top: 0; bottom: 0; right: 105px;
+    -moz-transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s; 
+}
+.clientmarchandswitch-checkbox:checked + .clientmarchandswitch-label .clientmarchandswitch-inner {
+    margin-left: 0;
+}
+.clientmarchandswitch-checkbox:checked + .clientmarchandswitch-label .clientmarchandswitch-switch {
+    right: 0px; 
+}
